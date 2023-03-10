@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #555;
+}
+.glavni {
+    height: 1086px;
+    width: 1512px;
+    background: #f1f1f1;
+    position: relative;
+    margin: auto;
+}
+.top {
+    height: 701px;
+    width: 979px;
+    background: #181818;
+    top: 79px;
+    left: 266px;
+    border-radius: 15px;
+    position: absolute;
+}
+.left {
+    height: 699px;
+    width: 452px;
+    position: relative;
+}
+.container {
+    height: 168px;
+    width: 328px;
+    position: absolute;
+    top: 265px;
+    left: 62px;
+}
+.box {
+    width: 326px;
+    height: 35px;
+    font-family: Helvetica;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    margin: auto;
+
+}
+.box2 {
+    width: 278px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #E1BB97;
+}
+.box3 {
+    width: 326px;
+    height: 53px;
+    margin-top: 30px;
+    font-family: Helvetica;
+    font-size: 22px;
+    font-weight: 550;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.right {
+    height: 417px;
+    width: 328px;
+    position: absolute;
+    top: 160px;
+    left: 550px;
+}
+.h2 {
+    width: 230px;
+    height: 35px;
+    margin: auto;
+    font-family: Helvetica;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+.container2 {
+    width: 165px;
+    height: 48px;
+    margin-top: 30px;
+    margin-left: 82px;
+    display: flex;
+}
+.abc {
+    width: 48px;
+    height: 48px;
+    border: 1px solid;
+    border-color: #E1BB97;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.ab {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #E1BB97;
+    margin-right: 11px;
+    border-radius: 50%;
+}
+.a {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #E1BB97;
+    border-radius: 50%;
+}
+.fab {
+    margin-left: 12px;
+    margin-top: 12px;
+    font-size: 24px;
+    color: #fff;
+    transition: all 0.3s;
+}
+.abc,
+.ab,
+.a,
+.fab:hover {
+    color: #E1BB97;
+    border-color:#fff;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.p {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+.in {
+    height: 53px;
+    width: 328px;
+    border: 1px solid #E1BB97;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 0 0 0 40px;
+    background-position: 20px;
+    font-family: Helvetica;
+    outline: none;
+}
+.inm {
+    height: 53px;
+    width: 328px;
+    border: 1px solid #E1BB97;
+    border-radius: 50px;
+    margin-top: 30px;
+    padding: 0 0 0 40px;
+    background-position: 20px;
+    font-family: Helvetica;
+    outline: none;
+}
+input::placeholder {
+    color:#7C6957;
+    font-family: Helvetica;
+}
+.i1 {
+    position: absolute;
+    top: 198px;
+    left: 20.5px;
+}
+.i2 {
+    position: absolute;
+    top: 280.5px;
+    left: 22px;
+}
+.btn {
+    height: 53px;
+    width: 328px;
+    margin-top: 20px;
+    border: 2px solid #E1BB97;
+    border-radius: 50px;
+    font-family: Helvetica;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    background: #E1BB97;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.btn:hover {
+    background: #fff;
+    color: #E1BB97;
+    border-color: #fff;
+}
+a {
+    margin-left: 77px;
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
