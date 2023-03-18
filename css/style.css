@@ -2082,7 +2082,7 @@ a {
         display: block;
     }
     .nav2-img {
-        margin: 20px 0 0 15px;
+        margin: 20px 0 0 42px;
         display: inline;
         transition: all 0.3s;
     }
@@ -2099,7 +2099,7 @@ a {
         letter-spacing: -0.10000000149011612px;
         text-align: left;
         color: #969696;
-        margin: 20px 0 20px 15px;
+        margin: 20px 0 20px 42px;
         display: block;
     }
     .nav2-link {
