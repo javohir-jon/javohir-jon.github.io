@@ -1,0 +1,866 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.mtg {
+    max-width: 1512px;
+    margin: auto;
+    background: #0F1428;
+    background-image: url("../mtg_img/orqa-rasm.png");
+}
+
+
+/* MTG start */
+
+.mtg-head {
+    width: 1512px;
+    height: 908px;
+}
+
+.navbar {
+    width: auto;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+    background: #0F1428;
+}
+
+.container {
+    width: auto;
+    height: 120px;
+    display: flex;
+}
+
+.mtg-n {
+    display: flex;
+}
+
+.-n {
+    margin-top: 50px;
+    margin-left: 64px;
+    display: flex;
+}
+
+.text2 {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #E3C994;
+    margin-right: 40px;
+}
+
+.jag {
+    width: 91px;
+    height: 41px;
+    border-bottom: 2px solid #E3C994;
+}
+
+.text1 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    margin-right: 40px;
+    transition: all 0.3s;
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text1:hover {
+    color: #E3C994;
+}
+
+.mtg-img {
+    width: 122.01px;
+    height: 48px;
+    margin: 40px 0 32px 0;
+}
+
+.mtg-i-title {
+    color: #fff;
+}
+
+.img1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.s {
+    margin-left: 12.36px;
+}
+
+.center {
+    background: none;
+    border: none;
+}
+
+.mtg-b {
+    margin-left: 42px;
+    margin-top: 33px;
+}
+
+.btn1 {
+    width: 200px;
+    height: 62px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 1px solid #000;
+    background: none;
+    border-color: #EAD4A2;
+    color: #CEAB68;
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+.btn2 {
+    width: 200px;
+    height: 62px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+    background: linear-gradient(318.69deg, #663500 -78.11%, #764710 -61.79%, #9E7538 -29.16%, #D0AD6A 5.51%, #D8B97C 23.87%, #EAD3A2 68.73%);
+    cursor: pointer;
+}
+
+.btn2_5 {
+    display: none;
+}
+
+.ii {
+    position: absolute;
+    z-index: 3;
+}
+
+.i {
+    position: absolute;
+    top: 0;
+}
+
+.mtg-c {
+    position: relative;
+}
+
+.text {
+    width: 864px;
+    height: 276px;
+    font-family: Neue Machina;
+    font-size: 62px;
+    font-weight: 500;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    position: relative;
+    top: 126px;
+    left: 150px;
+    z-index: 9;
+}
+
+.button {
+    width: 507px;
+    height: 62px;
+    position: absolute;
+    top: 450px;
+    left: 150px;
+    z-index: 100;
+}
+
+.btn3 {
+    width: 242px;
+    height: 62px;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+    margin-right: 20px;
+    background: linear-gradient(318.69deg, #663500 -78.11%, #764710 -61.79%, #9E7538 -29.16%, #D0AD6A 5.51%, #D8B97C 23.87%, #EAD3A2 68.73%);
+    cursor: pointer;
+}
+
+.btn4 {
+    width: 241px;
+    height: 62px;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 1px solid #ead4ea;
+    color: #CEAB68;
+    background: none;
+    cursor: pointer;
+}
+
+.i1 {
+    position: absolute;
+    top: 45px;
+    left: 625px;
+    z-index: 5;
+}
+
+.i2 {
+    position: absolute;
+    top: 275px;
+    left: 155px;
+    z-index: 99;
+}
+
+.i3 {
+    position: absolute;
+    top: 690px;
+    left: 707px;
+}
+
+
+/* MTG end */
+
+.i11 {
+    position: absolute;
+    top: 1050px;
+    z-index: 9;
+    opacity: 2%;
+}
+
+
+/* TOKEN start */
+
+.mtg-token {
+    width: auto;
+    height: 1945px;
+    position: relative;
+    z-index: 999;
+}
+
+.token {
+    width: 568px;
+    height: 196px;
+    font-family: Neue Machina;
+    font-size: 89px;
+    font-weight: 500;
+    line-height: 98px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 177px;
+}
+
+.shot {
+    width: 338px;
+    height: 396px;
+    position: absolute;
+    top: 286px;
+    left: 1034px;
+}
+
+.shot1 {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.shot2 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #666;
+}
+
+.ch {
+    margin-bottom: 32px;
+}
+
+.i5 {
+    position: absolute;
+    top: 514px;
+    left: 175px;
+}
+
+.shot_2 {
+    position: absolute;
+    top: 712px;
+    left: 140px;
+}
+
+.i6 {
+    position: absolute;
+    top: 1437px;
+    left: 78px;
+}
+
+.quti {
+    width: 416px;
+    height: 104px;
+    background: #273258;
+    border-radius: 12px;
+}
+
+.fa {
+    position: absolute;
+    top: 1385px;
+    left: 140px;
+}
+
+.fa1 {
+    position: absolute;
+    top: 1537px;
+    left: 314px;
+}
+
+.fa2 {
+    position: absolute;
+    top: 1689px;
+    left: 140px;
+}
+
+.fa3 {
+    position: absolute;
+    top: 1841px;
+    left: 314px;
+}
+
+.no {
+    width: 42px;
+    height: 56px;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    margin: 24px 350px 24px 24px;
+    position: absolute;
+}
+
+.noe {
+    width: 42px;
+    height: 56px;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    margin: 24px 362px 24px 24px;
+    position: absolute;
+}
+
+.t_text {
+    width: 294px;
+    height: 56px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    margin: 24px 24px 24px 98px;
+}
+
+.t_textn {
+    width: 306px;
+    height: 56px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    margin: 24px 24px 24px 98px;
+}
+
+.how {
+    width: 558px;
+    height: 196px;
+    font-family: Neue Machina;
+    font-size: 89px;
+    font-weight: 500;
+    line-height: 98px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    position: absolute;
+    top: 1650px;
+    left: 798px;
+}
+
+
+/* TOKEN end */
+
+.i12 {
+    position: absolute;
+    top: 3160px;
+    z-index: 5;
+    opacity: 2%;
+}
+
+
+/* PLAYING start */
+
+.playing {
+    position: relative;
+    width: auto;
+    height: 1251px;
+}
+
+.i8 {
+    position: absolute;
+    top: 440px;
+    z-index: 2;
+}
+
+.p_title {
+    width: 494px;
+    height: 196px;
+    font-family: Neue Machina;
+    font-size: 89px;
+    font-weight: 500;
+    line-height: 98px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    position: absolute;
+    top: 611px;
+    left: 911px;
+    z-index: 55;
+}
+
+.p_text {
+    width: 397px;
+    height: 134px;
+    position: absolute;
+    top: 839px;
+    left: 911px;
+    z-index: 55;
+}
+
+.p_text_n {
+    width: 237px;
+    height: 66px;
+    font-family: Neue Machina;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 8px;
+    margin-left: 0;
+    z-index: 55;
+}
+
+.p_text_t {
+    width: 397px;
+    height: 60px;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    z-index: 55;
+}
+
+.p_button {
+    width: 270px;
+    height: 198.37px;
+    position: relative;
+    top: 989px;
+    left: 911px;
+    z-index: 55;
+}
+
+.btn5 {
+    width: 270px;
+    height: 72px;
+    margin-top: 30.37px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000;
+    background: linear-gradient(318.69deg, #663500 -78.11%, #764710 -61.79%, #9E7538 -29.16%, #D0AD6A 5.51%, #D8B97C 23.87%, #EAD3A2 68.73%);
+    background: linear-gradient(318.69deg, #663500 -78.11%, #764710 -61.79%, #9E7538 -29.16%, #D0AD6A 5.51%, #D8B97C 23.87%, #EAD3A2 68.73%);
+    z-index: 55;
+}
+
+.btn6 {
+    width: 270px;
+    height: 72px;
+    margin-top: 24px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 1px solid #ead4ea;
+    color: #CEAB68;
+    background: none;
+    z-index: 55;
+}
+
+.i9 {
+    position: absolute;
+    left: 10.63px;
+    z-index: 55;
+}
+
+.i10 {
+    position: absolute;
+    z-index: 99;
+    right: 0;
+}
+
+
+/* PLAYING end */
+
+
+/* F.A.Q start */
+
+.faq {
+    width: auto;
+    height: 1307px;
+    position: relative;
+}
+
+.faq-title {
+    width: 179px;
+    height: 98px;
+    font-family: Neue Machina;
+    font-size: 89px;
+    font-weight: 500;
+    line-height: 98px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    position: absolute;
+    top: 520px;
+    left: 667px;
+    z-index: 150;
+}
+
+.i13 {
+    position: absolute;
+    top: 667px;
+    left: 655px;
+    z-index: 150;
+}
+
+.i14 {
+    position: absolute;
+    top: 649px;
+    left: 640px;
+    z-index: 150;
+}
+
+.faq_text1 {
+    width: 460px;
+    height: 160px;
+    position: absolute;
+    top: 569px;
+    left: 926px;
+    border: 1px solid #273258;
+    z-index: 150;
+}
+
+.faq_text2 {
+    width: 459px;
+    height: 160px;
+    position: absolute;
+    top: 654px;
+    left: 153px;
+    border: 1px solid #273258;
+    z-index: 150;
+}
+
+.faq_text3 {
+    width: 516px;
+    height: 160px;
+    position: absolute;
+    top: 838px;
+    left: 926px;
+    border: 1px solid #273258;
+}
+
+.faq_text4 {
+    width: 485px;
+    height: 195px;
+    position: absolute;
+    top: 907px;
+    left: 153px;
+    border: 1px solid #273258;
+    z-index: 150;
+}
+
+.faq_text1_a {
+    width: 412px;
+    height: 136px;
+    margin: 12px 24px;
+}
+
+.faq_text2_b {
+    width: 411px;
+    height: 136px;
+    margin: 12px 24px;
+}
+
+.faq_text3_c {
+    width: 468px;
+    height: 136px;
+    margin: 12px 24px;
+}
+
+.faq_text4_d {
+    width: 437px;
+    height: 171px;
+    margin: 12px 24px;
+}
+
+.faq_text_s {
+    width: 412px;
+    height: 51px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.faq_text_p {
+    width: 411px;
+    height: 81px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ccc;
+}
+
+.faq_text_sa {
+    width: 411px;
+    height: 51px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.faq_text_pa {
+    width: 411px;
+    height: 81px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ccc;
+}
+
+.faq_text_sb {
+    width: 470px;
+    height: 51px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.faq_text_pb {
+    width: 411px;
+    height: 81px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ccc;
+}
+
+.faq_text_sc {
+    width: 437px;
+    height: 86px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.faq_text_pc {
+    width: 411px;
+    height: 81px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ccc;
+}
+
+.i15 {
+    position: absolute;
+    top: 370px;
+    z-index: 4;
+    opacity: 2%;
+}
+
+
+/* F.A.Q end */
+
+
+/* USA start */
+
+.usa {
+    width: auto;
+    height: 160px;
+    position: relative;
+}
+
+.usa-s {
+    width: 1232px;
+    height: 71.99974822998047px;
+    border-top: 1px solid rgb(36, 43, 66);
+    position: absolute;
+    left: 140px;
+    z-index: 999;
+}
+
+.usa-box {
+    width: 1232px;
+    height: 47.99974822998047px;
+    margin-top: 24px;
+    display: flex;
+}
+
+.usa-box1 {
+    width: 110.9901123046875px;
+    height: 32px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 380px;
+}
+
+.usa-link {
+    font-size: 30px;
+    color: #ccc;
+    margin-right: 25px;
+    opacity: 60%;
+}
+
+.usa-links {
+    font-size: 30px;
+    color: #ccc;
+    opacity: 60%;
+}
+
+.fab {
+    cursor: pointer;
+}
+
+.usa-box2 {
+    width: 122.00988006591797px;
+    height: 47.99974822998047px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 380px;
+}
+
+.usa-box3 {
+    width: 231px;
+    height: 19px;
+    margin: 14.5px 0 14.5px 8px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ccc;
+    opacity: 60%;
+}
+
+.fab {
+    transition: all 0.3s;
+}
+
+.fa-telegram-plane:hover,
+.fa-twitter:hover {
+    transform: rotate(360deg) scale(1.3);
+    color: #fff;
+}
+
+
+/* USA end */
