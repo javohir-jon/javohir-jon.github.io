@@ -63,7 +63,7 @@ body {
     margin-top: 15px;
     border-color: none;
     outline: none;
-    cursor: pointer;
+    cursor: context-menu;
 }
 
 .ii {
