@@ -119,42 +119,17 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-const sr = scrollReveal({
-    origin: 'top',
-    distance: '60px',
-    duraction: 2500,
-    delay: 400,
-})
+try {
+    const sr = scrollReveal({
+        origin: 'top',
+        distance: '60px',
+        duraction: 2500,
+        delay: 400,
+    })
 
-sr.reveal(`.home__data`)
-sr.reveal(`.home__handle`, { delay: 700 })
-sr.reveal(`.home__social, .home__scroll`, { delay: 900, origin: 'bottom' })
-
-// email
-
-const contactForm = document.getElementById('contact-form'),
-    contactName = document.getElementById('contact-name'),
-    contactEmail = document.getElementById('contact-email'),
-    contactProject = document.getElementById('contact-project');
-
-const sendEmail = (e) => {
-    e.preventDefault()
-        // Check if the field has a value
-    if (contactName.value === '' || contactEmail.value === '' || contactProject.value === '') {} else {
-        // serviceID - templateID - #form - publicKey
-        emailjs.sendForm('service_rztj4xn', 'template_nxe53la', '#contact-form', 'dmPoPeT3QXHhzcksQ')
-            .then(() => {
-                setTimeout(() => {
-                    alert('send')
-                }, 5000)
-            }, (error) => {
-                alert('OOPS! SOMETHING HAS FAILED...', error)
-            })
-
-        // To clear the input field
-        contactName.value = ''
-        contactEmail.value = ''
-        contactProject.value = ''
-    }
+    sr.reveal(`.home__data`)
+    sr.reveal(`.home__handle`, { delay: 700 })
+    sr.reveal(`.home__social, .home__scroll`, { delay: 900, origin: 'bottom' })
+} catch (error) {
+    console.log(error);
 }
-contactForm.addEventListener('submit', sendEmail())
