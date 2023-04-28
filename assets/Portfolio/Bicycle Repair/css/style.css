@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'TT Hoves';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.round {
+    width: 100%;
+    height: 3310px;
+    background-color: #fff;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home {
+    width: 1519px;
+    height: 840px;
+    position: relative;
+    background: url("../img/Ellipse\ 1.svg") no-repeat right;
+    margin: 0 auto;
+}
+
+.containerr {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.h-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+.h-text {
+    width: 473px;
+    height: 259px;
+    margin: 190px 0 0 0;
+}
+
+.h-h3 {
+    font-family: TT Hoves;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E15252;
+}
+
+.h-h2 {
+    font-family: TT Hoves;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333333;
+}
+
+.h-p {
+    width: 425px;
+    height: 68px;
+    font-family: TT Hoves;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333333;
+    margin: 30px 0 30px 0;
+}
+
+.h-btn {
+    width: 160px;
+    height: 46px;
+    border-radius: 42px;
+    background-color: #E15252;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+/* Services start */
+
+.services {
+    width: 100%;
+    height: 840px;
+    position: relative;
+    background-color: #fff;
+}
+
+.s-logo {
+    width: 698px;
+    height: 292px;
+    border-radius: 0 0 50px 50px;
+    background: #F2F2F2;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.s-h2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #333333;
+}
+
+.s-p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #E15252;
+}
+
+.ser-box {
+    width: 1200px;
+    height: 362px;
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-box {
+    width: 246px;
+    height: 362px;
+}
+
+.img-box {
+    width: 224px;
+    height: 224px;
+    background: #E15252;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.s-b-h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #333333;
+    margin: 8px 0 0 0;
+}
+
+.s-b-p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4F4F4F;
+    margin: 10px 0 0 0;
+}
+
+.s-btn {
+    width: 208px;
+    height: 46px;
+    border-radius: 42px;
+    margin: 50px 0 0 496px;
+    background: #E15252;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* Services end */
+
+
+/* About Uc start */
+
+.about {
+    width: 100%;
+    height: 840px;
+    position: relative;
+    background: #E15252;
+    padding: 50px 0 0 0;
+}
+
+.a-h2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.a-p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #333333;
+    margin: 10px 0 0 0;
+}
+
+.about-box {
+    width: 1200px;
+    height: 648px;
+    background: #FFFFFF;
+    margin: 50px 0 0 0;
+    border-radius: 50px 50px 0 0;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.about-text {
+    width: 352px;
+    height: 370px;
+    /* margin: 139px 0 0 30xp; */
+}
+
+.a-t-h2 {
+    font-family: 'Vampiro One', cursive;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333333;
+}
+
+.a-box {
+    width: 90px;
+    height: 2px;
+    border-radius: 1px;
+    background: #E15252;
+    margin: 22px 0 20px 0;
+}
+
+.a-t-p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F4F4F;
+    margin: 0 0 30px 0;
+}
+
+.a-btn {
+    width: 208px;
+    height: 46px;
+    border-radius: 42px;
+    background: #E15252;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* About Uc end */
+
+
+/* Contact Us start */
+
+.contact {
+    width: 100%;
+    height: 698px;
+    position: relative;
+    background-color: #fff;
+}
+
+.contact-box {
+    width: 1200px;
+    height: 648px;
+    border-radius: 0 0 50px 50px;
+    background: #E15252;
+    padding: 100px 0 0 0;
+}
+
+.c-h2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 0 10px 0;
+}
+
+.c-p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #333333;
+    margin: 0 0 50px 0;
+}
+
+.c-links {
+    display: flex;
+}
+
+.c-form {
+    width: 374px;
+    height: 266px;
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 110px;
+}
+
+.c-inp {
+    width: 374px;
+    height: 56px;
+    border-radius: 61px;
+    border: none;
+    outline: none;
+    padding: 0 0 0 50px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: #333333;
+}
+
+.c-sub {
+    width: 168px;
+    height: 56px;
+    border-radius: 61px;
+    border: 3px solid #FFFFFF;
+    outline: none;
+    background: #E15252;
+    margin: auto;
+}
+
+input::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F4F4F;
+}
+
+form input[type="submit"] {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: #fff;
+}
+
+.c-link {
+    margin: 32px 0 0 100px;
+}
+
+.c-gmail {
+    width: 217px;
+    height: 24px;
+    display: flex;
+    gap: 20px;
+}
+
+.c-tell {
+    width: 144px;
+    height: 24px;
+    display: flex;
+    margin: 30px 0 0 0;
+    gap: 20px;
+}
+
+.c-cards {
+    width: 314px;
+    height: 24px;
+    display: flex;
+    margin: 30px 0 0 0;
+    gap: 20px;
+}
+
+.c-g-img {
+    width: 20px;
+    height: 16px;
+}
+
+.c-t-img {
+    width: 17.963769912719727px;
+    height: 17.963674545288086px;
+}
+
+.c-c-img {
+    width: 14px;
+    height: 19.470001220703125px;
+}
+
+.c-h3 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+
+/* Contact Us end */
+
+
+/* The End */
+
+.end {
+    width: 100%;
+    height: 92px;
+    position: relative;
+    background: #C4C4C4;
+}
