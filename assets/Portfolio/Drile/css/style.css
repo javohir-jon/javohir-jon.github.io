@@ -10,10 +10,18 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     justify-content: center;
-    background-color: #ccc;
+    background-color: #f5f5f5;
+}
+
+.drile {
+    background: #fff;
 }
 
 
@@ -24,6 +32,7 @@ body {
     height: 674px;
     background: #FFF;
     position: relative;
+    padding-top: 120px;
 }
 
 .container {
@@ -32,10 +41,14 @@ body {
 }
 
 .navbar {
-    width: 100%;
+    width: 1110px;
     height: 80px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    background: #fff;
+    top: 0;
+    z-index: 99;
 }
 
 .logo {
@@ -68,10 +81,13 @@ body {
     margin-top: 41px;
 }
 
+.nav img {
+    cursor: pointer;
+}
+
 .h-box {
     display: flex;
     justify-content: space-between;
-    margin-top: 60px;
 }
 
 .h-b {
@@ -99,6 +115,7 @@ body {
     letter-spacing: -0.56px;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 .h-img {
@@ -124,6 +141,7 @@ body {
     height: 953px;
     background: #FFF;
     position: relative;
+    z-index: 33;
 }
 
 .b-h2 {
@@ -330,6 +348,7 @@ i {
     height: 732px;
     position: relative;
     background: #FFF;
+    z-index: 33;
 }
 
 .from-box {
@@ -437,6 +456,7 @@ i {
     height: 808px;
     position: relative;
     background-color: #FFF;
+    z-index: 33;
 }
 
 .strelka1 {
@@ -595,6 +615,7 @@ i {
     height: 507px;
     background: url("../assets/img/vecteezy-interior-of-a-modern-living-room-in-3-d-rendering-20701381.png");
     position: relative;
+    z-index: 33;
 }
 
 .section2 {
@@ -684,6 +705,7 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 33;
 }
 
 .footer-h2 {
