@@ -9,6 +9,8 @@
     <title>Drile</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" href="Logo.png">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/swiper2.css">
 </head>
 
 <body>
@@ -36,14 +38,22 @@
                     </div>
                 </nav>
                 <div class="h-box">
-                    <img src="assets/img/vecteezy-interior-design-of-a-modern-room-in-3-d-illustration-20740651.png" alt="">
+                    <!-- Swiper -->
+                    <div class="swiper-container mySwiper">
+                        <div class="swiper-wrapper">
+                            <img src="assets/img/vecteezy-interior-design-of-a-modern-room-in-3-d-illustration-20740651.png" class="swiper-slide" alt="">
+                            <img src="assets/img/vecteezy-interior-design-of-a-modern-room-in-3-d-illustration-20740651.png" class="swiper-slide" alt="">
+                            <img src="assets/img/vecteezy-interior-design-of-a-modern-room-in-3-d-illustration-20740651.png" class="swiper-slide" alt="">
+                        </div>
+
+                    </div>
                     <div class="h-b">
                         <h2 class="h-h2">Get ready for Our stylist chair</h2>
                         <button class="h-btn">SHOP NOW</button>
                     </div>
                 </div>
-                <img src="assets/img/vector.svg" alt="" class="h-img">
-                <img src="assets/img/vector1.svg" alt="" class="h-img1">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
                 <div class="back-box"></div>
             </div>
         </header>
@@ -177,31 +187,49 @@
         <!-- FROM end -->
         <!-- TREDING start -->
         <section class="treding" id="page">
-            <img src="assets/img/vector3.svg" alt="" class="strelka1">
-            <img src="assets/img/vector4.svg" alt="" class="strelka2">
             <div class="container">
                 <div class="trading-h2">TRENDING CATEGORIES</div>
-                <div class="wrapper">
-                    <div class="carousel">
-                        <div class="wrap_1"><img src="assets/img/dressing.svg" alt="">
+                <div class="swiper-contai mySwip">
+                    <div class="swiper-wrapper carousel">
+                        <div class="wrap_1 swiper-slide"><img src="assets/img/dressing.svg" alt="">
                             <h2 class="t1-h2">DRESSING TABLE</h2>
                         </div>
-                        <div class="wrap_2"><img src="assets/img/lamp.svg" alt="">
+                        <div class="wrap_2 swiper-slide"><img src="assets/img/lamp.svg" alt="">
                             <h2 class="t2-h2">LAMP </h2>
                         </div>
-                        <div class="wrap_3"><img src="assets/img/cabinet.svg" alt="">
+                        <div class="wrap_3 swiper-slide"><img src="assets/img/cabinet.svg" alt="">
                             <h2 class="t3-h2">CABINET</h2>
                         </div>
-                        <div class="wrap_4"><img src="assets/img/sofa.svg" alt="">
+                        <div class="wrap_4 swiper-slide"><img src="assets/img/sofa.svg" alt="">
                             <h2 class="t4-h2">CABINET</h2>
                         </div>
-                        <div class="wrap_5"><img src="assets/img/chair.svg" alt="">
+                        <div class="wrap_5 swiper-slide"><img src="assets/img/chair.svg" alt="">
                             <h2 class="t5-h2">CHAIR</h2>
                         </div>
-                        <div class="wrap_6"><img src="assets/img/bed.svg" alt="">
+                        <div class="wrap_6 swiper-slide"><img src="assets/img/bed.svg" alt="">
+                            <h2 class="t6-h2">BED</h2>
+                        </div>
+                        <div class="wrap_1 swiper-slide"><img src="assets/img/dressing.svg" alt="">
+                            <h2 class="t1-h2">DRESSING TABLE</h2>
+                        </div>
+                        <div class="wrap_2 swiper-slide"><img src="assets/img/lamp.svg" alt="">
+                            <h2 class="t2-h2">LAMP </h2>
+                        </div>
+                        <div class="wrap_3 swiper-slide"><img src="assets/img/cabinet.svg" alt="">
+                            <h2 class="t3-h2">CABINET</h2>
+                        </div>
+                        <div class="wrap_4 swiper-slide"><img src="assets/img/sofa.svg" alt="">
+                            <h2 class="t4-h2">CABINET</h2>
+                        </div>
+                        <div class="wrap_5 swiper-slide"><img src="assets/img/chair.svg" alt="">
+                            <h2 class="t5-h2">CHAIR</h2>
+                        </div>
+                        <div class="wrap_6 swiper-slide"><img src="assets/img/bed.svg" alt="">
                             <h2 class="t6-h2">BED</h2>
                         </div>
                     </div>
+                    <div class="swiper-button-nex"></div>
+                    <div class="swiper-button-pre"></div>
                 </div>
                 <div class="best-box">
                     <div class="b-box t1">
@@ -310,4 +338,34 @@
         <!-- FOOTER end -->
     </div>
 
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+        var swiper = new Swiper(".mySwip", {
+            slidesPerView: 6,
+            spaceBetween: 30,
+            loop: true,
+
+            navigation: {
+                nextEl: ".swiper-button-nex",
+                prevEl: ".swiper-button-pre",
+            },
+        });
+    </script>
+
 </body>
+
+</html>
