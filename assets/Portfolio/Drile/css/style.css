@@ -17,7 +17,7 @@ html {
 body {
     display: flex;
     justify-content: center;
-    background-color: #f5f5f5;
+    background-color: #ccc;
 }
 
 .drile {
@@ -30,7 +30,6 @@ body {
 .header {
     width: 1440px;
     height: 674px;
-    background: #FFF;
     position: relative;
     padding-top: 120px;
 }
@@ -88,6 +87,8 @@ body {
 .h-box {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 50;
 }
 
 .h-b {
@@ -130,6 +131,17 @@ body {
     right: 92px;
 }
 
+.back-box {
+    width: 895px;
+    height: 497px;
+    background: #F6F6F6;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 34;
+    top: 408px;
+    right: 0;
+}
+
 
 /* HOME end */
 
@@ -139,9 +151,7 @@ body {
 .best {
     width: 1440px;
     height: 953px;
-    background: #FFF;
     position: relative;
-    z-index: 33;
 }
 
 .b-h2 {
@@ -150,6 +160,8 @@ body {
     font-family: Federo;
     line-height: 50px;
     text-align: center;
+    position: relative;
+    z-index: 50;
 }
 
 .best-box {
@@ -157,6 +169,8 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 41px 0 0 0;
+    position: relative;
+    z-index: 50;
 }
 
 .b-box {
@@ -164,6 +178,7 @@ body {
     height: 342px;
     text-align: center;
     position: relative;
+    z-index: 99;
     background: #FFF;
     box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.10);
 }
@@ -347,7 +362,6 @@ i {
     width: 1440px;
     height: 732px;
     position: relative;
-    background: #FFF;
     z-index: 33;
 }
 
@@ -396,7 +410,18 @@ i {
     font-size: 45px;
     font-family: Federo;
     letter-spacing: 0.9px;
+    display: inline;
+}
+
+.f-h22 {
+    display: inline;
     margin: 0 0 28px 0;
+    color: #78A2CA;
+    font-size: 45px;
+    font-family: Federo;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.9px;
 }
 
 .f-p {
@@ -411,7 +436,7 @@ i {
     font-family: Open Sans;
     font-weight: 300;
     line-height: 26px;
-    margin: 0 0 28px 0;
+    margin: 28px 0 28px 0;
 }
 
 .f-btn1 {
@@ -455,7 +480,6 @@ i {
     width: 1440px;
     height: 808px;
     position: relative;
-    background-color: #FFF;
     z-index: 33;
 }
 
@@ -495,13 +519,17 @@ i {
 }
 
 .carousel div {
-    height: 148px;
+    height: 146px;
     width: calc(100% / 6);
     margin-left: 20xp;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.wrap_1 {
+    background: #FBF9F3;
 }
 
 .t1-h2,
@@ -701,7 +729,6 @@ i {
     width: 1440px;
     height: 52px;
     position: relative;
-    background: #FFF;
     display: flex;
     justify-content: center;
     align-items: center;
