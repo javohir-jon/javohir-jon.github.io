@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+body {
+    background-color: #1D2026;
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    width: 1140px;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    padding: 30px 0 0 0;
+}
+
+header::before {
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background-color: white;
+    z-index: -1;
+    background: #242830;
+    background: linear-gradient(80deg, rgba(36, 40, 48, 0.5) 0%, rgba(36, 40, 48, 0) 100%);
+    transform-origin: 0;
+    transform: skewY(-12deg);
+}
+
+.head-box {
+    width: 488px;
+    margin: 160px 0 0 0;
+}
+
+.head-box h2 {
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0 0 16px;
+}
+
+.head-box p {
+    color: #8a94a7;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 24px;
+}
+
+.head-box button {
+    padding: 10px 32px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    background-color: #242830;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 2px;
+}
+
+.button-primary {
+    background: linear-gradient(65deg, #0270D7 0, #0F8AFD 100%);
+    margin: 0 16px 0 0;
+}
+
+.button-secondary:hover {
+    background-color: rgb(39, 43, 52);
+}
+
+main {
+    margin: 230px 0 0;
+}
+
+.flex-cards {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 30px;
+}
+
+.section-card {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.section-card h2 {
+    color: white;
+    margin: 24px 0 0 4px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.section-card p {
+    color: #8a94a7;
+    font-size: 18px;
+    text-align: center;
+}
+
+.flex-cards::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    display: block;
+    height: 1px;
+    background: #242830;
+    left: 0;
+    bottom: 0;
+}
+
+.unlimited {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0 0;
+}
+
+.unlimited h2 {
+    color: white;
+    font-size: 38px;
+    margin: 0 0 16px;
+    font-weight: 600;
+}
+
+.lorem {
+    width: 800px;
+    padding: 0 90px;
+    margin: 0 auto 50px;
+    font-size: 20px;
+    color: #8a94a7;
+    text-align: center;
+}
+
+.card {
+    width: 344px;
+    height: 492px;
+    padding: 24px;
+    background-color: #2C3039;
+    border-radius: 0;
+    border: none;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    width: 736px;
+    height: 435px;
+    bottom: 18.8%;
+    z-index: -1;
+    transform: translateX(-30%);
+    background-image: url(assets/pricing-illustration.svg);
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-shadow: 0 24px 48px rgba(21, 24, 29, 0.24);
+    mix-blend-mode: multiply;
+}
+
+.c-price {
+    width: 100%;
+    height: 79px;
+    border-bottom: 1px solid rgba(138, 148, 167, 0.24);
+}
+
+.c-price h2 {
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.c-price .price {
+    font-size: 38px;
+    color: #8a94a7;
+}
+
+.c-price .month {
+    font-size: 16px;
+    color: #8a94a7;
+    font-weight: 400;
+}
+
+.c-text {
+    width: 100%;
+    height: 73px;
+    border-bottom: 1px solid rgba(138, 148, 167, 0.24);
+    display: flex;
+    align-items: center;
+}
+
+.c-text h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 53px;
+    border-bottom: 1px solid rgba(138, 148, 167, 0.24);
+}
+
+.card li p {
+    margin: 0;
+    color: #8a94a7;
+}
+
+.card button {
+    margin: 25px 0 0;
+    border: none;
+    width: 100%;
+    height: 48px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+.u-box {
+    width: 100%;
+    height: 176px;
+    background-color: #15181d;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    margin: 100px 0 15px;
+}
+
+.u-box::before {
+    content: '';
+    position: absolute;
+    width: 160px;
+    height: 187px;
+    background-image: url(https://preview.cruip.com/solid/dist/images/cta-illustration.svg);
+    top: -117px;
+    right: 98px;
+}
+
+.u-box h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.u-box button {
+    padding: 10px 32px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+footer {
+    height: 206px;
+    padding: 64px 0;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top .logo {
+    margin: 0 0 24px;
+}
+
+.link-icon {
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-text {
+    color: #8a94a7;
+    margin: 0;
+}
+
+menu {
+    display: flex;
+    gap: 18px;
+}
+
+menu li a {
+    color: #8a94a7;
+    font-size: 14px;
+}
+
+menu li a:hover {
+    text-decoration: underline;
+}
