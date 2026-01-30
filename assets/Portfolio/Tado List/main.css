@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+td {
+    @apply text-center py-3;
+}
+
+.rename {
+    @apply px-7 py-2 rounded-md text-white bg-blue-700;
+}
+
+.delete {
+    @apply px-7 py-2 rounded-md text-white bg-red-700;
+}
